@@ -1,0 +1,22 @@
+{
+  "name": "professional-readme-generator-pia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pia-Fierro/professional-README-generator-pia.git"
+  },
+  "author": "Pia Fierro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pia-Fierro/professional-README-generator-pia/issues"
+  },
+  "homepage": "https://github.com/Pia-Fierro/professional-README-generator-pia#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
