@@ -33,9 +33,9 @@ ${test}
 
 ### Questions
 Please forward your questions or suggestions using either of the following channels: \n
-My GitHub link is [${gitUser}](https://github.com/${gitUser})  
+    - My GitHub link is [${gitUser}](https://github.com/${gitUser})  
 
-My email is ${mail}
+    -My email is ${mail}
 
 `;
 

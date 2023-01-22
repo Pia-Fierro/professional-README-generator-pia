@@ -6,11 +6,22 @@ README generation is an app that runs in Node.js and uses Inquirer and fs module
 
 ## Usage
 
-Run node index.js in terminal and answer the questions. Then a README file will be automatically generated. 
+Open index.js in integrated terminal and in the coomand line run:
+```
+ node index.js 
+```
+Then answer the questions following the promts in command line. Once user has answered all the questions, then a README file will be automatically generated. 
 
 ## Technologies
 
 -JavaScript
+
 -Node
 
+-npm Inquirer version 8.2.4
+
+-fs module
+
 ## Demo
+```
+```
