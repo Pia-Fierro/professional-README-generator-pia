@@ -31,11 +31,12 @@ ${contribution}
 ### Test
 ${test}
 
-### Questions
-Please forward your questions or suggestions using either of the following channels: \n
-    - My GitHub link is [${gitUser}](https://github.com/${gitUser})  
+## Questions
+Please forward your questions or suggestions using either of the following channels:
 
-    -My email is ${mail}
+* GitHub link [${gitUser}](https://github.com/${gitUser})  
+
+* Email ${mail}
 
 `;
 

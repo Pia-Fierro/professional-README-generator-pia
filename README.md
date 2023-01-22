@@ -23,5 +23,8 @@ Then answer the questions following the promts in command line. Once user has an
 -fs module
 
 ## Demo
-```
-```
+
+Link to video demostration: 
+
+[README generator](https://watch.screencastify.com/v/my12RaBgoEl1ZtPKWjK6)
+
