@@ -1,10 +1,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
+
 const generateMarkdown = ({title, description, installation, usage, license, contribution, test, gitUser, mail}) =>
 
 `
 # ${title}
+
+![badge](https://img.shields.io/badge/license-${license}-yellow)
 
 ## Description 
 ${description}
@@ -15,7 +18,7 @@ ${description}
 - [Contribution](#contribution)
 - [Test](#test)
 - [Questions](#questions)
-    
+   
 ### Instalation
 ${installation}
 
@@ -29,10 +32,10 @@ ${contribution}
 ${test}
 
 ### Questions
+Please forward your questions or suggestions using either of the following channels: \n
+My GitHub link is [${gitUser}](https://github.com/${gitUser})  
 
-My GitHub link: [${gitUser}](https://github.com/${gitUser})  
-
-My e-mail:${mail}
+My email is ${mail}
 
 `;
 
@@ -62,10 +65,10 @@ inquirer.prompt([
         name:"license",
         message:"What is the license of your project?",
         choices: [
-            "none",
-            "ABC",
+            "None",
+            "ISC",
             "MIT"
-        ],
+            ]
     },
     {
         type:"input",
@@ -87,12 +90,15 @@ inquirer.prompt([
         name:"mail",
         message:"What is your email address?",
     },
-    
 ])
+
 .then((answers)=>{
     const READMEfile = generateMarkdown(answers);
     fs.writeFile('README.md',READMEfile, (err)=>
     err? console.log(err) : console.log('Successfully created README.md :)!')    
     );
 });
+
+
+
 
